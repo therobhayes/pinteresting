@@ -1,4 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
 $body-bg:		#ecf0f1;
+$font-family-sans-serif:		'Hammersmith One', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 $navbar-default-bg:		#27ae60;
 $navbar-default-link-color:		#ecf0f1;
 $navbar-default-link-hover-color:		#bdc3c7;
@@ -11,3 +13,11 @@ $thumbnail-border:		#34495e;
 $thumbnail-padding:		10px;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
